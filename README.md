@@ -12,7 +12,7 @@ Auto Clicker is a program written in Java that automatically clicks the mouse un
 
 - Java SE Development Kit (JDK) 8 or later
 - A Java IDE, such as Eclipse or IntelliJ IDEA
-- `system-hook` Library
+- `system-hook library` 
 
 ## Installation
 
