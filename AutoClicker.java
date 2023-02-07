@@ -10,7 +10,10 @@ import static java.lang.System.exit;
 
 public class AutoClicker {
     public static boolean run = true;
+    public static int interval;
     public static void main(String[] args) {
+        //1000 = 1 second
+        interval = 1000;
         Start();
     }
 
@@ -37,7 +40,7 @@ public class AutoClicker {
         for (int i = 0; i < Integer.MAX_VALUE; i++) {
             bot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             bot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            Thread.sleep(1);
+            Thread.sleep(interval);
         }
     }
 
